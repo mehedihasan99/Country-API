@@ -45,3 +45,29 @@ h1, h2, h3, p{
     grid-template-columns: repeat(3, 1fr);
     
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #countries {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    #country-details{
+        width: 320px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    body{
+        padding: 0 20px;
+    }
+    #countries {
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+}
