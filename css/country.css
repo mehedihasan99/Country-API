@@ -1,0 +1,47 @@
+.county-style{
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    height: 150px;
+    margin: 10px auto;
+    box-shadow: 2px -1px 9px -3px rgba(0, 0, 0, 0.6);
+    transition: all .3s;
+    cursor: pointer;
+}
+#country-details{
+     padding: 20px;
+     border-radius: 10px;
+     width: 500px;
+     margin: 10px auto;
+     box-shadow: 2px -1px 9px -3px rgba(0, 0, 0, 0.6);
+     transition: all .3s;
+     cursor: pointer;
+     display: none;
+}
+.btn{
+    border-radius: 10px;
+    background-image: linear-gradient(to right, salmon, rgb(248, 154, 144));
+    padding: 6px 12px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.county-style:hover{
+    background-color: rgb(213, 243, 144);
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+h1, h2, h3, p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.county-style h3{
+    text-transform: capitalize;
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
